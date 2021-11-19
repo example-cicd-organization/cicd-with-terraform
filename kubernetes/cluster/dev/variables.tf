@@ -6,11 +6,7 @@ variable "gcp_region" {
   type = string
   description = "GCP Region"
 }
-variable "gcp_gke_username" {
+variable "k8_subnet_cidr" {
   type = string
-  description = "gke username"
-}
-variable "gcp_gke_password" {
-  type = string
-  description = "gke password"
+  description = "GKE cidr range"
 }

@@ -14,6 +14,15 @@ The scripts aim to provide a cloud infrastructure that:
   jenkinfile
 - A front-end host service
 
+## Requirements
+### Kubernetes
+- Active account on GCP to host the Kubernetes clusters
+- Create project for prod & dev
+- Attach billing to each aforementioned project
+- Enable Compute API
+- Enable Kubernetes API
+
+### Jenkins
 ## Infrastructure diagram
 
 ![cicd infrastructure for a github

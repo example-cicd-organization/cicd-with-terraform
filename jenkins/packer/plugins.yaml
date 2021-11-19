@@ -1,0 +1,10 @@
+plugins:
+  - artifactId: github-branch-source
+    source:
+      version: latest
+  - artifactId: kubernetes
+    source:
+      version: latest
+  - artifactId: blueocean
+    source:
+      version: latest
